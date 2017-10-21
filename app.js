@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 //connect to mongo db
 mongoose.connect(keys.mongodb.dbURI, () => {
-  console.log('connect to mongo db');
+  console.log('connect to mongoose db');
 });
 
 //setup routes
